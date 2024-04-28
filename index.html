@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <main class="main">
+        <div class="calculadora">
+
+                <input class="calculadora_visor" id="userInput" placeholder="0">
+
+            <div class="botoes_calculadora">
+                <button class="btn" onclick="ArmazenaValores(7)">7</button>
+                <button class="btn" onclick="ArmazenaValores(8)">8</button>
+                <button class="btn" onclick="ArmazenaValores(9)">9</button>
+                <button class="btn" onclick="ArmazenaValores('/')">÷</button>
+                <button class="btn" onclick="ArmazenaValores(4)">4</button>
+                <button class="btn" onclick="ArmazenaValores(5)">5</button>
+                <button class="btn" onclick="ArmazenaValores(6)">6</button>
+                <button class="btn" onclick="ArmazenaValores('*')">x</button>
+                <button class="btn" onclick="ArmazenaValores(1)">1</button>
+                <button class="btn" onclick="ArmazenaValores(2)">2</button>
+                <button class="btn" onclick="ArmazenaValores(3)">3</button>
+                <button class="btn" onclick="ArmazenaValores('+')">+</button>
+                <button class="btn" onclick="ArmazenaValores(0)">0</button>
+                <button class="btn" onclick="ArmazenaValores('.')">.</button>
+                <button class="btn" onclick="Igual('=')">=</button>
+                <button class="btn" onclick="ArmazenaValores('-')">-</button>
+            </div>
+        </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
+
 </html>
